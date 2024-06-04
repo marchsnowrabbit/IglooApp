@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#344250">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:fontFamily="@font/pf_stardustbold"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:padding="30px"
+        android:text="소비 통계">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="30px"
+        android:fontFamily="@font/pf_stardustbold"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="사용금액 : 1234567원"
+        android:id="@+id/monthSumTxt">
+    </TextView>
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calview"
+        android:theme="@style/CustomCalendarTheme"
+        android:weekDayTextAppearance="@style/CustomCalendarDay"
+        android:dateTextAppearance="@style/CustomCalendarDate"
+        >
+
+    </CalendarView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:id="@+id/scrollLinear">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300px"
+                android:fontFamily="@font/pf_stardustbold"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:padding="30px"
+                android:text="1번">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300px"
+                android:fontFamily="@font/pf_stardustbold"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:padding="30px"
+                android:text="2번">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300px"
+                android:fontFamily="@font/pf_stardustbold"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:padding="30px"
+                android:text="3번">
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/calBackBtn"
+        android:text="CLOSE"
+        android:fontFamily="@font/pf_stardustbold"
+        android:textColor="@color/white"
+        android:textSize="15dp">
+    </Button>
+
+
+</LinearLayout>

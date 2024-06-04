@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Igloo</string>
+    <string name="manual_start">(Appname)사용방법!!</string>
+    <string name="manual">본 앱은 수집형 가계부 입니다!</string>
+    <string name="manual_1">1.한달동안 사용할 소비한도를 설정해주세요.</string>
+    <string name="manual_11">만약 소비한도를 넘는다면, 화면이 흑백으로 바뀌니 주의해 주세요:D.</string>
+    <string name="manual_2">2.가계부를 기록은 [Write]에서 할 수 있습니다.\n 기록할 때마다 가챠를 돌릴 수 있습니다</string>
+    <string name="manual_21">-> UPDATE버튼 후 나타나는 가챠머신을 클릭해주세요! </string>
+    <string name="manual_3">3.습득한 가챠는 [Gallery] 에서 확인 할 수 있습니다.</string>
+    <string name="manual_31">가계부의 팽귄을 길게 누르면 정보를 볼 수있고 짧게 눌리시면 시작화면의 팽귄을 바꿀 수 있습니다.</string>
+    <string name="manual_4">4.한 달 소비량과 지금까지의 기록을 보고 싶으시면 [Calendar]를 확인해 주세요.</string>
+</resources>

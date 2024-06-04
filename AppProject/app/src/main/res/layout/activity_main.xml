@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:id="@+id/MainActivity"
+    tools:context=".MainActivity">
+
+    <!--  메인화면 이미지  -->
+
+
+    <!--    옵션 버튼   -->
+    <ImageButton
+        android:id="@+id/optionBtn"
+        android:layout_width="48dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/setting_white">
+    </ImageButton>
+
+    <!--  펭귄   -->
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="256dp"
+        android:layout_height="292dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="149dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <!--    Calendar    -->
+
+        <ImageButton
+            android:id="@+id/calBtn"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_weight="1"
+            android:background="@drawable/button_calendar"></ImageButton>
+
+        <!--  Write  -->
+
+        <ImageButton
+            android:id="@+id/writeBtn"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_weight="1"
+            android:background="@drawable/button_write"></ImageButton>
+
+        <!--  Gallery  -->
+
+        <ImageButton
+            android:id="@+id/galBtn"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_weight="1"
+            android:background="@drawable/button_gallery">
+        </ImageButton>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

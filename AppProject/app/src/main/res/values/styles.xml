@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--  11월 22일 추가  -->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- 11월 25일 XML 수정   -->
+    <style name="CustomDatepicker">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:fontFamily">@font/pf_stardustbold</item>
+        <item name="colorControlNormal">@color/yellow</item>
+    </style>
+    <style name="CustomCalendarDay">
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="CustomCalendarTheme" parent="Theme.AppCompat">
+        <item name="android:colorAccent">@color/yellow</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:fontFamily">@font/pf_stardustbold</item>
+    </style>
+    <style name="CustomCalendarDate">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/lightgreen</item>
+        <item name="android:colorAccent">@color/white</item>
+    </style>
+
+    <!-- 11월 22일 팝업창 스타일 지정 -->
+    <style name="OptionPopup" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- 11월 27일 Calendar -> ScroolView 내부 TextView 스타일 추가 -->
+    <style name="ScrollText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/pf_stardustbold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <!-- 11월 30일 옵션 사용법 추가 -->
+    <style name="Theme.AppCompat.Translucatent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 12월 1일 -->
+    <style name="Dialog" parent="Theme.AppCompat.Dialog">
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style>
+
+    <!-- 12월 4일 -->
+    <style name="PengInfo" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeBtn</item>
+        <item name="android:background">#344250</item>
+    </style>
+    <style name="NegativeBtn" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:fontFamily">@font/pf_stardustbold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gachalayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageButton
+            android:id="@+id/gachaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="1000px"
+            android:layout_centerInParent="true"
+            android:background="@drawable/gacha"></ImageButton>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/resultlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/resultTxt"
+            android:fontFamily="@font/pf_stardustbold"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:text="Get!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_above="@+id/resultImage"
+            >
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/resultImage"
+            android:layout_width="512px"
+            android:layout_height="512px"
+            android:layout_centerInParent="true"
+            android:src="@drawable/peng_adelly">
+        </ImageView>
+
+        <ImageButton
+            android:id="@+id/closeBtn"
+            android:layout_width="300px"
+            android:layout_height="200px"
+            android:background="@drawable/button_okay"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/resultImage"
+            >
+
+        </ImageButton>
+
+    </RelativeLayout>
+
+</LinearLayout>
